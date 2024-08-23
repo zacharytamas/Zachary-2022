@@ -1,0 +1,30 @@
+{
+  "name": "zachary-2022",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zacharytamas/Zachary-2022.git"
+  },
+  "author": "Zachary Jones <zachary@jones.cx>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/zacharytamas/Zachary-2022/issues"
+  },
+  "homepage": "https://github.com/zacharytamas/Zachary-2022#readme",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.0",
+    "prettier": "^3.3.3"
+  }
+}
