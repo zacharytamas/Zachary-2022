@@ -1,4 +1,4 @@
-# Zachary-2022
+# rsa-server
 
 A simple server for storing and verifying public keys.
 
@@ -62,15 +62,3 @@ $ node client.js verify -m "Message" -s "<signature>"
 
   The message was signed by this signature.
 ```
-
-## Implementation notes
-
-- I took a little longer than usual because I mostly use TypeScript and was missing the type annotations
-  so I had to refresh myself on how to augment JavaScript with JSDoc to improve the language server's
-  understanding of my code.
-- I endeavored to use as much of the Node.js standard library as possible and had to relearn a lot of the
-  things like CLI argument parsing. Ordinarily I have used things like Commander.
-- I have left comments around for things I wanted to do but was trying to avoid getting distracted by.
-- I usually would have used a more test-driven development approach but as I was starting fresh and not
-  using my usual environment I didn't want to get caught up trying to get everything working together.
-  I tried to code defensively to compensate a bit.
